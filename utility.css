@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+    .top-right a:not(:first-child) {display: none;}
+    .top-right a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .top-right.responsive {position: relative;}
+    .top-right.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .top-right.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
